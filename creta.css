@@ -33,6 +33,7 @@ h2 {
 
 .title__main {
     font-size: 32px;
+
 }
 
 .title__text {
@@ -49,14 +50,15 @@ h2 {
 /* Первый экран */
 
 .header {
-    background-image: url(image/cretafon.jpg);
-    color: ;
+    background: pink;
+    color:  ;
     padding-top:58px;
     padding-bottom: 105px;
 }
 
 .menu {
     margin-top:8px;
+
 }
 
 .menu__item {
@@ -114,24 +116,30 @@ h2 {
 
 .feature {
     margin-bottom: 65px;
-    background
+   
 }
 
 .feature__icon {
+    
     font-size: 50px;
     margin-right: 37px;
     color: #000
 }
 
 .feature__text {
+    
     color: #898989;
 font-size: 50px;
+}
+.mid {
+    background: white;
 }
 
 
 /* Третий экран */
 
 .touch {
+
     background: #010101;
     color: #fff;
 }
