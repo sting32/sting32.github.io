@@ -2,27 +2,59 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>Тег LABEL</title>
+  <title>Регистрация</title>
   <link rel="stylesheet" type="text/css" href="reg1.css">
+  <link rel="stylesheet" type="text/css" href="main3.css">
+<link rel="shortcut icon" href="logo1.png" type="image/png">
  </head>
  <body>
+ 	<header id="header" class="header"> 
+		<div class="container">
+              <div class="row">
+                <div class="col-lg-3">
+                    <img  src="logo1.png" alt="Tinyone" class="logo animated fadeInUp" width="200px">
+                </div>
+                <div class="col-lg-5 ml-auto">
+                    <nav>
+                        <ul class="menu d-flex justify-content-center animated fadeInDown">
+                        	<li class="menu__item">
+                                <a href="index.html">
+                                   Главная
+                               </a>
+                        	<li class="menu__item">
+                                <a href="assortiment.html">
+                                   Ассортимент
+                                </a>                          
+                            </li>                            
+                            <li class="menu__item">
+                                <a href="https://www.hyundai.ru/?utm_source=yandex_hm&utm_medium=sem_cpc&utm_campaign=hyundai-brand-search-2020&utm_content=ch_yandex_direct%7Ccid_31018018%7Cgid_3278193641%7Cad_5609423118%7Cph_17641381946%7Ccrt_0%7Cpst_premium%7Cps_1%7Csrct_search%7Csrc_none%7Cdevt_desktop%7Cret_%7Cgeo_51%7Ccf_0%7Cint_%7Ctgt_17641381946%7Cadd_no%7Cmrlid_11454%7Cdop_&utm_term=hyundai">
+                                    Блог
+                                </a>
+                            </li>                         
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+ 	<center>
+
   <div class="form-wrap">
-  <div class="profile"><img src="https://html5book.ru/wp-content/uploads/2016/10/profile-image.png">
-    <h1>Регистрация</h1>
+  <div class="profile"><img align="center" src="https://html5book.ru/wp-content/uploads/2016/10/profile-image.png">
+    <h1 align="center">Регистрация</h1>
   </div>
-  <form method="post" action="form.php">
+  <form method="post">
     <div>
       <label for="name">Имя</label>
       <input type="text" name="name" required>
     </div>
     <div class="radio">
-      <span>Пол</span>
+      <span>Ваш пол</span>
       <label>
-        <input type="radio" name="sex" value="мужской">мужской
+        <input type="radio" name="sex" value="мужской">Муж
         <div class="radio-control male"></div>
       </label>
       <label>
-        <input type="radio" name="sex" value="женский">женский
+        <input type="radio" name="sex" value="женский">Жен
         <div class="radio-control female"></div>
       </label>
     </div>
@@ -35,13 +67,16 @@
       <select name="country">
         <option>Выберите страну проживания</option>
         <option value="Россия">Россия</option> 
-        <option value="Украина">Украина</option> 
-        <option value="Беларусь">Беларусь</option> 
+        <option value="USA">USA</option> 
+        <option value="Japane">Japane</option> 
+        <option value="China">China</option>
+        <option value="Poland">Poland</option>
       </select> 
       <div class="select-arrow"></div> 
     </div> 
     <button type="submit">Отправить</button> 
   </form> 
 </div>
+</center>
  </body>
 </html>

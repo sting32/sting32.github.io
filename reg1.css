@@ -1,22 +1,25 @@
 .form-wrap {
-  width: 550px;
-  background: pink;
+  width:700px;
+  background: silver;
   border-radius: 20px;
+  margin-top: 50px;
 }
-.form-wrap *{transition: .1s linear}
+.form-wrap *{
+  transition: .1s linear}
 .profile {
-  width: 240px;
-  float: left;
+  padding-top: 20px;
+  width: 300px;
+  float: center;
   text-align: center;
-  padding: 20px;
-  
+  padding-right: 0px;
+
 }
 form {
   background: white;
-  float: right;
+  float: center;
   width: calc(100% - 350px);
   padding: 30px;
-  border-radius: 0 20px 20px 0;
+  border-radius: 20px 20px 20px 20px;
   color: #7b7b7b; 
 }
 .form-wrap:after, form div:after {
@@ -34,7 +37,7 @@ h1 {
   position: relative;
   margin-top: 50px;
 }
-h1:after {
+h:after {
   content: "\f138";
   font-size: 40px;
   font-family: FontAwesome;
@@ -47,10 +50,11 @@ h1:after {
 /********************** стилизация элементов формы **********************/
 label, span {
   display: block;
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 8px;
 }
-input[type="text"], input[type="email"] {
+input[type="text"], input[type="email"] 
+{
   border-width: 0;
   outline: none;
   margin: 0;
@@ -101,7 +105,7 @@ input[type="text"]:focus, input[type="email"]:focus {
   color: red;
 }
 select {
-  width: 100%;
+  width: 250px;
   cursor: pointer;
   padding: 10px 15px;
   outline: 0;
